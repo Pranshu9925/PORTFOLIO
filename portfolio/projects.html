@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranshu Babariya | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <div class="underline"></div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="app">App</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="img/project1.png" alt="Project 1">
+                        <div class="project-overlay">
+                            <h3>Coffee Website</h3>
+                            <p>Full-featured online store with payment integration</p>
+                            <a href="#" class="btn primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="img/project2.png" alt="Project 2">
+                        <div class="project-overlay">
+                            <h3>ToolHub App</h3>
+                            <p>In which i have made Simple Calculator, Flip a Coin, Currency Convetor, Roll Dice and Ruller which i have made by myself</p>
+                            <a href="#" class="btn primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="img/project3.png" alt="Project 2">
+                        <div class="project-overlay">
+                            <h3>Restaurant Website Design</h3>
+                            <p>Full-featured design of an Restaurant</p>
+                            <a href="#" class="btn primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More project cards -->
+            </div>
+             
+            <div class="cta-section">
+                <h3>Have a project in mind?</h3>
+                <p>I'm available for freelance work. Let's discuss your project!</p>
+                <a href="contact.html" class="btn primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

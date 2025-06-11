@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranshu Babariya | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h3 class="intro animate-fade-in">Hello, I'm</h3>
+                <h1 class="name animate-slide-up">Pranshu Babariya</h1>
+                <h2 class="profession animate-slide-up">Web Developer</h2>
+                <p class="brief animate-fade-in">I create beautiful, functional websites with amazing user experiences.</p>
+                <div class="cta-buttons animate-fade-in">
+                    <a href="projects.html" class="btn primary">View My Work</a>
+                    <a href="contact.html" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image animate-scale-in">
+                <div class="image-wrapper">
+                    <img src="img/profile.jpg" alt="Profile Image" class="profile-img">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down animate-bounce">
+            <a href="#highlights"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+ 
+    <!-- Highlights Section -->
+    <section id="highlights" class="highlights">
+        <div class="container">
+            <div class="highlight-card">
+                <i class="fas fa-code"></i>
+                <h3>Clean Code</h3>
+                <p>Well-structured and maintainable code following best practices</p>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive</h3>
+                <p>Designs that work perfectly on all device sizes</p>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-rocket"></i>
+                <h3>Fast</h3>
+                <p>Optimized for performance and speed</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
